@@ -194,38 +194,29 @@ header {
 /* Filtros */
 .filters {
   display: flex;
-  justify-content: center;
+  justify-content:center;
   gap: 20px;
-  padding: 30px 20px;
+  padding: 20px;
   flex-wrap: wrap;
 }
 
-.filters select {
-  padding: 15px 25px;
+.filters select,
+
+.filters .create {
+  padding: 12px 24px;
   border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
   border: 1px solid #ccc;
   background-color: #e0e0e0;
-  font-size: 16px;
-  font-weight: 600;
   cursor: pointer;
-  appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-}
-
-.filters button {
-  padding: 15px 30px; /* BOTÃ•ES MAIORES */
-  border: none;
-  border-radius: 12px;
-  background-color: #e0e0e0;
-  cursor: pointer;
-  font-weight: 600;
-  font-size: 16px;
 }
 
 .filters .create {
   background-color: #007BFF;
   color: #fff;
+  border: none;
+  text-decoration: none;
 }
 
 /* SeÃ§Ã£o de eventos */

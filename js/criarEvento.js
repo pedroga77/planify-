@@ -99,16 +99,16 @@ if (!id_estado) {
 const dados = {
   titulo,
   descricao,
-  data_evento: data_evento, // deve estar no formato "YYYY-MM-DD"
-  horario: horario + ':00', // adiciona os segundos, caso não tenha
+  data_evento: data_evento,
+  horario: horario + ':00', 
   local,
-  imagem, // mais correto que foto_perfil
+  imagem, 
   limite_participante: limite,
   valor_ingresso,
   id_usuario,
   id_estado,
   categoria: id_categoria ? [{ id_categoria }] : undefined
-  // participante pode ser adicionado se quiser
+
 }
 console.log(dados)
   try {
